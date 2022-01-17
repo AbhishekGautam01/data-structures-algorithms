@@ -14,6 +14,9 @@
 2. **Average case time complexity**: O(√N)
 3. **Best case time complexity**: O(1)
 4. **Space complexity**: O(1)
+
+[Detailed Explanation Here](https://iq.opengenus.org/jump-search-algorithm/)
+
 # Pseudocode 
 ```
 Begin
