@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace algorithms.searching
 {
@@ -19,7 +15,7 @@ namespace algorithms.searching
         {
             // Initialize fibonacci numbers 
             int fibM2 = 0; // (m-2)th fibonacci no.
-            int fibM1 = 1; // (m-`)th fibonacci no.
+            int fibM1 = 1; // (m-1)th fibonacci no.
             int fibM = fibM2 + fibM1; // (m)th fibonacci no.
 
             // fibM is going to store the smallest fibonacci number greater than or equals to n
