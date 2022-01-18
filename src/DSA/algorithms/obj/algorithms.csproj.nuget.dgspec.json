@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\dev\\sc\\data-structures-algorithms\\src\\algorithms\\algorithms\\algorithms\\algorithms.csproj": {}
+    "F:\\dev\\sc\\data-structures-algorithms\\src\\DSA\\algorithms\\algorithms.csproj": {}
   },
   "projects": {
-    "F:\\dev\\sc\\data-structures-algorithms\\src\\algorithms\\algorithms\\algorithms\\algorithms.csproj": {
+    "F:\\dev\\sc\\data-structures-algorithms\\src\\DSA\\algorithms\\algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\dev\\sc\\data-structures-algorithms\\src\\algorithms\\algorithms\\algorithms\\algorithms.csproj",
+        "projectUniqueName": "F:\\dev\\sc\\data-structures-algorithms\\src\\DSA\\algorithms\\algorithms.csproj",
         "projectName": "algorithms",
-        "projectPath": "F:\\dev\\sc\\data-structures-algorithms\\src\\algorithms\\algorithms\\algorithms\\algorithms.csproj",
+        "projectPath": "F:\\dev\\sc\\data-structures-algorithms\\src\\DSA\\algorithms\\algorithms.csproj",
         "packagesPath": "C:\\Users\\erabh\\.nuget\\packages\\",
-        "outputPath": "F:\\dev\\sc\\data-structures-algorithms\\src\\algorithms\\algorithms\\algorithms\\obj\\",
+        "outputPath": "F:\\dev\\sc\\data-structures-algorithms\\src\\DSA\\algorithms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erabh\\AppData\\Roaming\\NuGet\\NuGet.Config",
