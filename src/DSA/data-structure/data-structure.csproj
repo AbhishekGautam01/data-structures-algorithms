@@ -6,4 +6,8 @@
     <RootNamespace>data_structure</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="heap\" />
+  </ItemGroup>
+
 </Project>
