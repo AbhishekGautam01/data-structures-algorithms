@@ -4,6 +4,24 @@ namespace algorithms.sorting
 {
     internal class Bubble
     {
+        public static void BubbleSortRecursive(int[] arr, int len)
+        {
+            if (len == 1)
+                return;
+
+            // One pass of sort. After this pass the largest is moved (or bubbled to end.
+            for (int i = 0; i < len - 1; i++)
+                if (arr[i] > arr[i + 1])
+                {
+                    // swap arr[i], arr[i+1]
+                    int temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                }
+
+            // Largest element is fixed recur for remaining array
+            BubbleSortRecursive(arr, len - 1);
+        }
         public static int[] BubbleSort(int[] arr)
         {
             for(int i = 0; i < arr.Length - 2; i++)
