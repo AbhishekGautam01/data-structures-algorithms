@@ -6,9 +6,10 @@ namespace algorithms.sorting
     {
         public static int[] InsertionSort(int[] arr) { 
             int arrLen = arr.Length;
-            for(int i = 0; i < arrLen - 1; ++i)
+            // i starts with 1 as we assume one element is always sorted so we dont need to check element on  0th index.
+            for(int i = 1; i < arrLen - 1; ++i)
             {
-                int key = arr[i];
+                int key = arr[i]; // It is like a temp storage for current element, so that element doesnt get lost during shifting 
                 int j = i - 1;
                 while(j >= 0 && arr[j] > key)
                 {

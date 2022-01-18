@@ -1,5 +1,6 @@
 # Insertion Sort
 * It is a simple sort in which array is virtually split into sorted and unsorted part, an element from unsorted part is placed at correct position is sorted part. 
+* It has **lesser comparison than bubble sort**
 
 ## Complexity 
 1. **Worst Case Time Complexity**: o(n^2)
@@ -29,7 +30,7 @@ end for
 ```
 
 ## C# Implementation
-````
+```
 using System;
 
 namespace algorithms.sorting
@@ -38,9 +39,10 @@ namespace algorithms.sorting
     {
         public static int[] InsertionSort(int[] arr) { 
             int arrLen = arr.Length;
-            for(int i = 0; i < arrLen - 1; ++i)
+            // i starts with 1 as we assume one element is always sorted so we dont need to check element on  0th index.
+            for(int i = 1; i < arrLen - 1; ++i)
             {
-                int key = arr[i];
+                int key = arr[i]; // It is like a temp storage for current element, so that element doesn't get lost during shifting 
                 int j = i - 1;
                 while(j >= 0 && arr[j] > key)
                 {
@@ -72,4 +74,5 @@ namespace algorithms.sorting
         }
     }
 }
-````
+
+```
