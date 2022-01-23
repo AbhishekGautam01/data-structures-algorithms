@@ -8,5 +8,3 @@
 * All operations should be O(1) complexity. 
 ![1_uMrbbMUfD46sgvpE2fKw7A](./img/1_uMrbbMUfD46sgvpE2fKw7A.png)
 * for data entries with the same frequency, we will use a double-linked list as a container to store these data entries. And the double-linked list would be helpful to maintain the order of data entries by least recently used.
-
-## Implementation
