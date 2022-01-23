@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace data_structure.LRU_Cache
+﻿namespace data_structure.LRU_Cache
 {
 	public class LRUNode
-	{
+    {
 		public int Key { get; set; }
 		public int Value { get; set; }
 		public LRUNode Previous { get; set; }
