@@ -42,7 +42,7 @@ namespace algorithms.searching
         }
 
 
-        public static void Main()
+        public static void DriverBinarySearch()
         {
 
             int[] arr = { 2, 3, 4, 10, 40 };

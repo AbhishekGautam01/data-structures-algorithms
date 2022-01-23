@@ -6,7 +6,7 @@ namespace data_structure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            linked_list.singly.LinkedList101_Create.Create();
         }
     }
 }

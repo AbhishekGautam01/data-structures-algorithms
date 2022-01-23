@@ -34,7 +34,7 @@ namespace algorithms.searching
             return -1; 
         }
 
-        public static void Main()
+        public static void DriverExponentialSearch()
         {
             int[] arr = { 2, 3, 4, 10, 40 };
             int n = arr.Length;
