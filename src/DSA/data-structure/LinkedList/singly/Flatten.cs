@@ -16,14 +16,20 @@ namespace data_structure.linked_list.singly
             public class Node
             {
                 public int data;
-                public Node right, down;
+                public Node next, down;
                 public Node(int data)
                 {
                     this.data = data;
-                    right = null;
+                    next = null;
                     down = null;
                 }
             }
+        }
+
+        // https://www.youtube.com/watch?v=kvCYxPKpPGg&list=PLUcsbZa0qzu3yNzzAxgvSgRobdUUJvz7p&index=53
+        public static void FlattenLevelWise()
+        {
+
         }
 
 
